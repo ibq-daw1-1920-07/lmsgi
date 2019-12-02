@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deportistas>
-        <deporte deporte="Atletismo"></deporte>
-        <nombre>Jesse Owens</nombre>
-        <deporte deporte="Natación"></deporte>
-        <nombre>Mark Spitz</nombre>
+        <deportista>
+                <deporte nombre="atletismo"/>
+                <nombre>Jesse Owens</nombre>
+        </deportista>
+        <deportista>
+                <deporte nombre="Natación"/>
+                <nombre>Mark Spitz</nombre>
+        </deportista>
 </deportistas>
