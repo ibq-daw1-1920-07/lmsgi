@@ -2,18 +2,18 @@
 <document xmlns:com="http://www.lmsgi.net/comidas">
     <menu precio="10" tarjeta="no">
         <comida>
-            <com:primero>sopa <opcion tipo="sobre"/></com:primero>
-            <com:segundo>chuleta<opcion tipo="cerdo"/></com:segundo>
-            <com:postre>flan<opcion tipo="huevo"/></com:postre>
-            <com:bebida>agua<opcio tamaño="0.5"/></com:bebida>        
+            <com:primero>sopa <com:opcion tipo="sobre"/></com:primero>
+            <com:segundo>chuleta<com:opcion tipo="cerdo"/></com:segundo>
+            <com:postre>flan<com:opcion tipo="huevo"/></com:postre>
+            <com:bebida>agua<com:opcion tamano="0.5"/></com:bebida>        
         </comida>
     </menu>
     <menu precio="25" tarjeta="si">
         <comida>
-            <com:primero>entremeses<opcion tipo="ibericos"/></com:primero>
-            <com:segundo>chuleton<opcion tipo="ternera"/></com:segundo>
-            <com:postre>arroz con leche<opcion tipo="casero"/></com:postre>
-            <com:bebida>rioja<opcio tamaño="1"/></com:bebida>
+            <com:primero>entremeses<com:opcion tipo="ibericos"/></com:primero>
+            <com:segundo>chuleton<com:opcion tipo="ternera"/></com:segundo>
+            <com:postre>arroz con leche<com:opcion tipo="casero"/></com:postre>
+            <com:bebida>rioja<com:opcion tamano="1"/></com:bebida>
         </comida>
     </menu>
 </document>

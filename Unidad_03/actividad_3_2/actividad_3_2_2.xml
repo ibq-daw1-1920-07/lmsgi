@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<emails xmlns:thu="https://www.thunderbird.net/es-ES/" xmlns:ou="https://outlook.live.com/owa/" xmlns:evo="https://es.wikipedia.org/wiki/Evolution_(software)">
+    <thu:email>
+        <thu:gestor_correo>thunderbird</thu:gestor_correo>
+        <thu:destinatario>juanelagarrado@judio.com</thu:destinatario>
+        <thu:origen>yolopolo@gmail.com</thu:origen>
+        <thu:mensaje>hola juan te queria decir que me debes 5 euros</thu:mensaje>
+    </thu:email>
+    <ou:email>
+        <ou:gestor_correo>thunderbird</ou:gestor_correo>
+        <ou:destinatario>juanelagarrado@judio.com</ou:destinatario>
+        <ou:origen>yolopolo@gmail.com</ou:origen>
+        <ou:mensaje>hola juan te queria decir que me debes 5 euros</ou:mensaje>
+    </ou:email>
+    <evo:email>
+        <evo:gestor_correo>thunderbird</evo:gestor_correo>
+        <evo:destinatario>juanelagarrado@judio.com</evo:destinatario>
+        <evo:origen>yolopolo@gmail.com</evo:origen>
+        <evo:mensaje>hola juan te queria decir que me debes 5 euros</evo:mensaje>
+    </evo:email>
+</emails>

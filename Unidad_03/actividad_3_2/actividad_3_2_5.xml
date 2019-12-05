@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<escuela>
+    <cursos>
+        <curso titutolo="xml">
+            <profesor>
+                <nombre>Manu</nombre>
+            </profesor>
+            <alumnanado>
+                <alumno>Jorgito</alumno>
+                <alumno>Juanito</alumno>
+                <alumno>Jaimito</alumno>
+            </alumnanado>
+        </curso>
+        <curso titutulo="php">
+            <profesor>
+                <nombre>Luis</nombre>
+            </profesor>
+            <alumnanado>
+                <alumno>Maria</alumno>
+                <alumno>Luisa</alumno>
+                <alumno>Marta</alumno>
+            </alumnanado>
+        </curso>
+    </cursos>
+</escuela>
