@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lmsgi:centros xmlns:lmsgi="http://www.lmsgi.net/document" xmlns:Numero1="http://www.lmsgi.net/centros/Numero1" xmlns:Aviles="http://www.lmsgi.net/centros/Aviles" xmlns:DoctorFleming="http://www.lmsgi.net/centros/DoctorFleming" xmlns:Quiros="http://www.lmsgi.net/centros/Quiros" xmlns:SectoresIndustrial="http://www.lmsgi.net/centros/SectoresIndustrial" xmlns:SanchezLastra="https://www.lmsgi.net/centros/SanchezLastra">
+    <Aviles:centro localidad="Aviles">
+        <Aviles:alumnos>
+            <Aviles:alumno>Martín López, Luisa </Aviles:alumno>
+            <Aviles:alumno>Viejo Pérez, Ernesto </Aviles:alumno>
+        </Aviles:alumnos>
+    </Aviles:centro>
+    <Numero1:centro localidad="Gijón">
+        <Numero1:alumnos>
+            <Numero1:alumno>García Pérez, Ana </Numero1:alumno>
+            <Numero1:alumno>Fernández Uría, José Luis </Numero1:alumno>
+            <Numero1:alumno>Díaz del Olmo, Belén </Numero1:alumno>
+            <Numero1:alumno>Rodríguez Marqués, Lucía </Numero1:alumno>
+            <Numero1:alumno>Nava Domínguez, Fernando </Numero1:alumno>
+            <Numero1:alumno>García González, Eva </Numero1:alumno>
+            <Numero1:alumno>Criado Martínez, Bernardo </Numero1:alumno>
+        </Numero1:alumnos>
+    </Numero1:centro>
+    <Quiros:centro localidad="Mieres">
+        <Quiros:alumnos>
+            <Quiros:alumno>García del Riego, Clara </Quiros:alumno>
+            <Quiros:alumno>Rodríguez Nieto, Luciano </Quiros:alumno>
+        </Quiros:alumnos>
+    </Quiros:centro>
+    <DoctorFleming:centro localidad="Oviedo">
+        <DoctorFleming:alumnos>
+            <DoctorFleming:alumno>González Rubiera, Pedro </DoctorFleming:alumno>
+        </DoctorFleming:alumnos>
+    </DoctorFleming:centro>
+    <SectoresIndustrial:centro localidad="Gijón">
+        <SectoresIndustrial:alumnos>
+            <SectoresIndustrial:alumno>Gómez Lamela, Javier </SectoresIndustrial:alumno>
+            <SectoresIndustrial:alumno>Álvarez Cortés, Óscar </SectoresIndustrial:alumno>
+        </SectoresIndustrial:alumnos>
+    </SectoresIndustrial:centro>
+    <SanchezLastra:centro localidad="Mieres">
+        <SanchezLastra:alumnos>
+            <SanchezLastra:alumno>Reigal Pérez, Sofía </SanchezLastra:alumno>
+        </SanchezLastra:alumnos>
+    </SanchezLastra:centro>
+</lmsgi:centros>
