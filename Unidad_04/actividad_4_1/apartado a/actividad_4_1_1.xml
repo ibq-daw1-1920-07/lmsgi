@@ -3,6 +3,4 @@
 <!ELEMENT numeros ( #PCDATA )>
 ]>
 
-<numeros>
-    25
-</numeros>
+<numeros>25</numeros>
