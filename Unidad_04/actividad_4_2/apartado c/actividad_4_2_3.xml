@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE partidos [
-<!ELEMENT partidos (partido)*>
-<!ELEMENT partido (empy)>
+<!ELEMENT partidos (partido)+>
+<!ELEMENT partido EMPTY>
 <!ATTLIST partido localNombre CDATA #REQUIRED>
 <!ATTLIST partido localGoles CDATA #REQUIRED>
 <!ATTLIST partido visitanteNombre CDATA #REQUIRED>
