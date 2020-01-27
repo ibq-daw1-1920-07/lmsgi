@@ -9,7 +9,7 @@
 ]>
 
 <partidos>
-    <partido localNombre="Nottingham Presa" localGoles="0" visitanteNombre="Inter de Mitente" visitanteGoles="1"/>>
-    <partido localNombre="Vodka Juniors" localGoles="3" visitanteNombre="Sparta da Risa" visitanteGoles="3"/>>
-    <partido localNombre="Water de Munich" localGoles="4" visitanteNombre="Esteaua es del grifo" visitanteGoles="2"/>>
+    <partido localNombre="Nottingham Presa" localGoles="0" visitanteNombre="Inter de Mitente" visitanteGoles="1"/>
+    <partido localNombre="Vodka Juniors" localGoles="3" visitanteNombre="Sparta da Risa" visitanteGoles="3"/>
+    <partido localNombre="Water de Munich" localGoles="4" visitanteNombre="Esteaua es del grifo" visitanteGoles="2"/>
 </partidos>

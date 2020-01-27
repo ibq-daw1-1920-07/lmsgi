@@ -6,7 +6,7 @@
 <!ELEMENT local (nombre, goles)+>
 <!ELEMENT visitante (nombre, goles)+>
 <!ELEMENT nombre (#PCDATA)>
-<!ELEMENT goles (empy)>
+<!ELEMENT goles EMPTY>
 <!ATTLIST goles marcador CDATA #IMPLIED>
 ]>
 
