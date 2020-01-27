@@ -7,6 +7,6 @@
 ]>
 
 <listaCompra>
-<item nombre="leche" cantidad="12 litros" />
-<item nombre="pam" cantidad="3 barras de cuarto" />
+    <item nombre="leche" cantidad="12 litros" />
+    <item nombre="pam" cantidad="3 barras de cuarto" />
 </listaCompra>
