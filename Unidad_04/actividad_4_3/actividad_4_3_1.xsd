@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xsd:element name="calle" type="xsd:string"></xsd:element>
+  <xsd:element name="pais" type="xsd:string"></xsd:element>
+  <xsd:element name="codigo" type="xsd:string"></xsd:element>
+  <xsd:element name="nombre" type="xsd:string"></xsd:element>
+
+  <xsd:element name="etiqueta">
+    <xsd:complexType>
+      <xsd:sequence>
+          <xsd:element ref="calle"></xsd:element>
+          <xsd:element ref="pais"></xsd:element>
+          <xsd:element ref="codigo"></xsd:element>
+          <xsd:element ref="nombre"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

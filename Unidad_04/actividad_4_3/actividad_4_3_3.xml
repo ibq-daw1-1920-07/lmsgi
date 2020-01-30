@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="nombre" type="xsd:string"></xsd:element>
+<xsd:element name="tlf" type="xsd:string"></xsd:element>
+
+<xsd:attribute name="id" type="xsd:string"></xsd:attribute>
+
+  <xsd:element name="persona">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="nombre"></xsd:element>
+            <xsd:element ref="tlf"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute ref="id"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="agenda">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element ref="persona"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        
+</xsd:schema>
