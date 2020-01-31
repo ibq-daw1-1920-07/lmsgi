@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="nombres" type="xsd:string"></xsd:element>
+<xsd:element name="apellidos" type="xsd:date"></xsd:element>
+<xsd:element name="titulo" type="xsd:string"></xsd:element>
+<xsd:element name="sello" type="xsd:string"></xsd:element>
+<xsd:element name="artista" type="xsd:integer"></xsd:element>
+
+    <xsd:element name="canciones">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="titulo"></xsd:element>
+                <xsd:element ref="compositores"></xsd:element>
+                <xsd:element ref="productores"></xsd:element>
+                <xsd:element ref="sello"></xsd:element>
+                <xsd:element ref="artista"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="productores">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="productor"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="compositores">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="compositor"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="compositor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="nombres"></xsd:element>
+                <xsd:element ref="apellidos"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="productor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="nombres"></xsd:element>
+                <xsd:element ref="apellidos"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

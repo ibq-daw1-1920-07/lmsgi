@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="titulo" type="xsd:string"></xsd:element>
+<xsd:element name="autor" type="xsd:string"></xsd:element>
+<xsd:element name="email" type="xsd:string"></xsd:element>
+<xsd:element name="version" type="xsd:string"></xsd:element>
+<xsd:element name="fecha" type="xsd:date"></xsd:element>
+<xsd:element name="QTEXT" type="xsd:string"></xsd:element>
+<xsd:element name="A" type="xsd:string"></xsd:element>
+
+
+<xsd:attribute name="number" type="xsd:string"></xsd:attribute>
+<xsd:attribute name="ID" type="xsd:string"></xsd:attribute>
+
+  <xsd:element name="INFO">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="titulo"></xsd:element>
+            <xsd:element ref="autor"></xsd:element>
+            <xsd:element ref="email"></xsd:element>
+            <xsd:element ref="version"></xsd:element>
+            <xsd:element ref="fecha"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="Q">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="QTEXT"></xsd:element>
+            <xsd:element ref="A"></xsd:element>
+        </xsd:sequence>
+    <xsd:attribute ref="ID"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="PART">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="Q"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute ref="number"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="FAQ">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element ref="INFO"></xsd:element>
+                <xsd:element ref="PART"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+</xsd:schema>

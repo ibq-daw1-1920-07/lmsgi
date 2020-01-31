@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="presentacion" type="xsd:string"></xsd:element>
+<xsd:element name="datos_academicos" type="xsd:date"></xsd:element>
+<xsd:element name="experiencia_laboral" type="xsd:string"></xsd:element>
+<xsd:element name="lectura" type="xsd:string"></xsd:element>
+<xsd:element name="deportes" type="xsd:integer"></xsd:element>
+<xsd:element name="otros" type="xsd:integer"></xsd:element>
+<xsd:element name="referencias" type="xsd:integer"></xsd:element>
+
+  <xsd:element name="CV">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="presentacion"></xsd:element>
+            <xsd:element ref="datos_academicos" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="experiencia_laboral" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="lectura" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="deportes" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="otros" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="referencias" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>
