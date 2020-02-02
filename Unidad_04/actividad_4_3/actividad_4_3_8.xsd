@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="nombres" type="xsd:string"></xsd:element>
+<xsd:element name="apellidos" type="xsd:string"></xsd:element>
+<xsd:element name="titulo" type="xsd:string"></xsd:element>
+<xsd:element name="sello" type="xsd:string"></xsd:element>
+<xsd:element name="artista" type="xsd:string"></xsd:element>
+
+<xsd:attribute name="titulo" type="xsd:string"></xsd:attribute>
+<xsd:attribute name="duracion" type="xsd:string"></xsd:attribute>
+<xsd:attribute name="anio" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="dia" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="mes" type="xsd:integer"></xsd:attribute>
+
+
+    <xsd:element name="cancion">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="titulo"></xsd:element>
+                <xsd:element ref="compositores"></xsd:element>
+                <xsd:element ref="productores"></xsd:element>
+                <xsd:element ref="sello"></xsd:element>
+                <xsd:element ref="artista"></xsd:element>
+            </xsd:sequence>
+            <xsd:attribute ref="duracion"></xsd:attribute>
+            <xsd:attribute ref="anio"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="productores">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="productor" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="compositores">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="compositor" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="compositor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="nombres"></xsd:element>
+                <xsd:element ref="apellidos"  minOccurs="0"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="productor">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="nombres"></xsd:element>
+                <xsd:element ref="apellidos" minOccurs="0"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="songs">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="cancion" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="fecha">
+        <xsd:complexType>
+            <xsd:attribute ref="dia"></xsd:attribute>
+            <xsd:attribute ref="mes"></xsd:attribute>
+            <xsd:attribute ref="anio"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="cd">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="songs"></xsd:element>
+                <xsd:element ref="fecha"></xsd:element>
+            </xsd:sequence>
+            <xsd:attribute ref="titulo"></xsd:attribute>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>

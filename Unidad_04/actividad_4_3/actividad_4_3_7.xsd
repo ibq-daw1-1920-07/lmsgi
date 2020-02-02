@@ -7,6 +7,9 @@
 <xsd:element name="sello" type="xsd:string"></xsd:element>
 <xsd:element name="artista" type="xsd:integer"></xsd:element>
 
+<xsd:attribute name="duracion" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="anio" type="xsd:integer"></xsd:attribute>
+
     <xsd:element name="canciones">
         <xsd:complexType>
             <xsd:sequence>
@@ -16,6 +19,8 @@
                 <xsd:element ref="sello"></xsd:element>
                 <xsd:element ref="artista"></xsd:element>
             </xsd:sequence>
+            <xsd:attribute ref="duracion"></xsd:attribute>
+            <xsd:attribute ref="anio"></xsd:attribute>
         </xsd:complexType>
     </xsd:element>
 

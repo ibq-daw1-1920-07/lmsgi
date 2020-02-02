@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:attribute name="tiempo" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="numero" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="editorial" type="xsd:string"></xsd:attribute>
+<xsd:attribute name="autor" type="xsd:string"></xsd:attribute>
+<xsd:attribute name="titulo" type="xsd:string"></xsd:attribute>
+
+<xsd:element name="libro">
+    <xsd:complexType>
+        <xsd:attribute ref="titulo"></xsd:attribute>
+        <xsd:attribute ref="editorial"></xsd:attribute>
+        <xsd:attribute ref="autor"></xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="revista">
+    <xsd:complexType>
+        <xsd:attribute ref="titulo"></xsd:attribute>
+        <xsd:attribute ref="editorial"></xsd:attribute>
+        <xsd:attribute ref="numero"></xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="bib">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element ref="libro" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="revista" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>

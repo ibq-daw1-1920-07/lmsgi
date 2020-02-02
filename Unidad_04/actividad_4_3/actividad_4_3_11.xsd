@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xsd:element name="titulo" type="xsd:string"></xsd:element>
+<xsd:element name="autor" type="xsd:string"></xsd:element>
+<xsd:element name="formato" type="xsd:string"></xsd:element>
+<xsd:element name="publicacion" type="xsd:integer"></xsd:element>
+
+<xsd:attribute name="tiempo" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="unidad" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="cantidad" type="xsd:float"></xsd:attribute>
+<xsd:attribute name="moneda" type="xsd:float"></xsd:attribute>
+<xsd:attribute name="href" type="xsd:string"></xsd:attribute>
+
+<xsd:element name="disponible">
+      <xsd:complexType>
+          <xsd:attribute ref="tiempo"></xsd:attribute>
+          <xsd:attribute ref="unidad"></xsd:attribute>
+      </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="precio">
+    <xsd:complexType>
+        <xsd:attribute ref="cantidad"></xsd:attribute>
+        <xsd:attribute ref="moneda"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="descuento">
+      <xsd:complexType>
+          <xsd:attribute ref="cantidad"></xsd:attribute>
+      </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="enlacelibro">
+    <xsd:complexType>
+        <xsd:attribute ref="href"></xsd:attribute>
+    </xsd:complexType>
+</xsd:element>
+
+  <xsd:element name="libro">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element ref="titulo"></xsd:element>
+                <xsd:element ref="disponible"></xsd:element>
+                <xsd:element ref="autor"></xsd:element>
+                <xsd:element ref="formato"></xsd:element>
+                <xsd:element ref="publicacion"></xsd:element>
+                <xsd:element ref="precio"></xsd:element>
+                <xsd:element ref="descuento"></xsd:element>
+                <xsd:element ref="enlacelibro"></xsd:element>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        
+</xsd:schema>
