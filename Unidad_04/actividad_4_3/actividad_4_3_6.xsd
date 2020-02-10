@@ -5,7 +5,7 @@
 <xsd:element name="autor" type="xsd:string"></xsd:element>
 <xsd:element name="email" type="xsd:string"></xsd:element>
 <xsd:element name="version" type="xsd:string"></xsd:element>
-<xsd:element name="fecha" type="xsd:date"></xsd:element>
+<xsd:element name="fecha" type=""></xsd:element>
 <xsd:element name="QTEXT" type="xsd:string"></xsd:element>
 <xsd:element name="A" type="xsd:string"></xsd:element>
 
@@ -36,6 +36,7 @@
   </xsd:element>
 
   <xsd:element name="PART">
+
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element ref="Q"></xsd:element>

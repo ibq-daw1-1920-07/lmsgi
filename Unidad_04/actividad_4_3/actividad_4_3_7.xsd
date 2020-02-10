@@ -5,10 +5,10 @@
 <xsd:element name="apellidos" type="xsd:date"></xsd:element>
 <xsd:element name="titulo" type="xsd:string"></xsd:element>
 <xsd:element name="sello" type="xsd:string"></xsd:element>
-<xsd:element name="artista" type="xsd:integer"></xsd:element>
+<xsd:element name="artista" type="xsd:string"></xsd:element>
 
-<xsd:attribute name="duracion" type="xsd:integer"></xsd:attribute>
-<xsd:attribute name="anio" type="xsd:integer"></xsd:attribute>
+<xsd:attribute name="duracion" type="xsd:time"></xsd:attribute>
+<xsd:attribute name="anio" type="xsd:gYear"></xsd:attribute>
 
     <xsd:element name="canciones">
         <xsd:complexType>

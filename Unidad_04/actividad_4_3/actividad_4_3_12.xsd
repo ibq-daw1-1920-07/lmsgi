@@ -26,8 +26,8 @@
 <xsd:element name="bib">
     <xsd:complexType>
         <xsd:sequence>
-            <xsd:element ref="libro" maxOccurs="unbounded"></xsd:element>
-            <xsd:element ref="revista" maxOccurs="unbounded"></xsd:element>
+            <xsd:element ref="libro" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+            <xsd:element ref="revista" maxOccurs="unbounded" minOccurs="0"></xsd:element>
         </xsd:sequence>
     </xsd:complexType>
 </xsd:element>
