@@ -19,7 +19,7 @@
         <comentario>Copió de todos</comentario>
     </alumno>
 
-    <alumno dni="66554433T" nota="No presentado" edad="42">
+    <alumno dni="66554433T" nota="No presentao" edad="42">
             <nombre>Alfredo</nombre>
             <apellidos>Martínez González</apellidos>
             <comentario>Estudió en Universidad de Oviedo</comentario>
