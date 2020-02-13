@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividad_04_03.xsd">
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividad_4_3.xsd">
 
     <alumno dni="99887766X" nota="3.50" edad="45">
         <nombre>Dario</nombre>
