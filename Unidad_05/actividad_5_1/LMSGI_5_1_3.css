@@ -1,0 +1,17 @@
+body{width: 960px;}
+
+header{text-align: center;}
+
+#informacionLibro {float: left; 
+	width: 250px;}
+
+#columDerecha {float: right;
+		width: 700px;}
+
+#columDerecha > ul {padding: 0px;}
+
+
+.colum {width: 30%;
+	float: left;
+	list-style: none;
+	margin-right: 10px;}

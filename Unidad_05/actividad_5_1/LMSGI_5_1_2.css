@@ -1,0 +1,17 @@
+* {margin-left: 10xp;
+	margin-right: 10xp;}
+
+h1 {border: #00FF 2px solid;
+	padding: 10xp;
+	margin-top: 30xp;
+	margin-bottom: 30xp;}
+
+h2 {border: #AAAAAA 2px solid;
+	padding: 5xp;}
+
+ul {border: #00FF00 2px solid;}
+
+#todosmenosh1 {margin-bottom: 15xp;
+	margin-top: 15xp;}
+
+li {margin-bottom: 15xp;}
