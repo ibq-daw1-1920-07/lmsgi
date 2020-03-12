@@ -1,0 +1,68 @@
+﻿* {
+    color: rgb(255, 135, 36);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    border: rgb(15, 212, 114) 3px solid;
+}
+
+nav {
+    width: 20%;
+    height: 600px;
+    text-decoration: none;
+    float: left;
+    border: rgb(241, 241, 5) 3px solid;
+}
+
+aside {
+    width: 19%;
+    height: 600px;
+    float: right;
+    border: rgb(255, 0, 0) 3px solid;
+}
+
+section {
+    width: 60%;
+    height: 600px;
+    float: left;
+    border: blue 3px solid;
+}
+
+footer {
+    clear: left; /* No se si se puede usar esto pero lo pongo */
+    border: blueviolet 3px solid;
+}
+
+article {
+    padding: 3px;
+    border: rgb(255, 135, 36) 2px solid;
+}
+
+h4 {
+    color: rgb(33, 172, 20);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+
+    text-align: center;
+    list-style:none;
+}
+
+nav li {
+    text-align: center;
+    border: olive 1px solid;
+}
+
+.educastur {
+    text-align: center;
+}
