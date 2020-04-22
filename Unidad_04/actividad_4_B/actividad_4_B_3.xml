@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE cv [
+<!ELEMENT cv (presentacion, (datos_academicos | experiencia_laboral)+, (lectura|deportes|otros)*, referencias*)>
+<!ELEMENT presentacion (#PCDATA)>
+<!ELEMENT datos_academicos (#PCDATA)>
+<!ELEMENT experiencia_laboral (#PCDATA)>
+<!ELEMENT lectura (#PCDATA)>
+<!ELEMENT deportes (#PCDATA)>
+<!ELEMENT otros (#PCDATA)>
+<!ELEMENT referencias (#PCDATA)>
+]>
+
+<cv> 
+    <presentacion>Pepe García, ingeniero en sistemas</presentacion>
+    <datos_academicos>doctorado de algo</datos_academicos>
+    <lectura>clean code</lectura>
+    <referencias>Google </referencias>
+</cv>
